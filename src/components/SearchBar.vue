@@ -48,7 +48,7 @@ import IconMagnify from '@/assets/icons/IconMagnify.vue'
 import IconArrowPath from '@/assets/icons/IconArrowPath.vue'
 
 // @ts-ignore
-import { getWeatherData } from '@/controllers/weatherService'
+import { getWeatherData } from '@/controllers/WeatherService'
 // @ts-ignore
 import { getAutocompleteText } from '@/controllers/autoCompleteCity'
 </script>

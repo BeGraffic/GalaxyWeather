@@ -51,7 +51,7 @@
 
 <script setup lang="ts">
 // @ts-ignore
-import { getWeatherData } from '@/controllers/weatherService'
+import { getWeatherData } from '@/controllers/WeatherService'
 </script>
 
 <script lang="ts">

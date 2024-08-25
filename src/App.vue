@@ -6,7 +6,7 @@ import ListRecords from './components/ListRecords.vue'
 import SearchBar from './components/SearchBar.vue'
 
 // @ts-ignore
-import { getWeatherData } from '@/controllers/weatherService'
+import { getWeatherData } from '@/controllers/WeatherService'
 </script>
 
 <template>
