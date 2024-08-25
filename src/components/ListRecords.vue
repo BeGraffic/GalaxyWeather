@@ -101,7 +101,7 @@ export default {
   },
 
   watch: {
-    data() {
+    dataList() {
       if (this.dataList) {
         this.getHistoricalData()
       }
