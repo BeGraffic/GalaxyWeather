@@ -1,3 +1,4 @@
+// @ts-ignore
 import cityList from '@/assets/documents/city.list.json'
 
 export const getAutocompleteText = async (city) => {

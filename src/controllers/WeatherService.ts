@@ -1,3 +1,4 @@
+// @ts-ignore
 const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 
 export const getWeatherData = async (city) => {
