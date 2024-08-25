@@ -44,13 +44,13 @@
 </template>
 
 <script setup lang="ts">
-import IconMagnify from './icons/IconMagnify.vue'
-import IconArrowPath from './icons/IconArrowPath.vue'
+import IconMagnify from '@/assets/icons/IconMagnify.vue'
+import IconArrowPath from '@/assets/icons/IconArrowPath.vue'
 
 // @ts-ignore
-import { getWeatherData } from '../controllers/weatherService'
+import { getWeatherData } from '@/controllers/weatherService'
 // @ts-ignore
-import { getAutocompleteText } from '../controllers/autoCompleteCity'
+import { getAutocompleteText } from '@/controllers/autoCompleteCity'
 </script>
 
 <script lang="ts">
