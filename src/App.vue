@@ -93,6 +93,7 @@ export default {
 
     handleDataFetched(data: any) {
       this.weatherData = data
+      this.showResult = true
     },
 
     getLocation() {
