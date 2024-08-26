@@ -175,11 +175,11 @@ export default {
     updateVideoUrl(value: { img: any; video: any; }) {
 
       if (value.img) {
-        this.imageUrl = new URL(`/src/assets/images/weather/${value.img}`, window.location.href)
+        this.imageUrl = new URL(`@/assets/images/weather/${value.img}`, import.meta.url).href
       }
 
       if (value.video) {
-        this.videoUrl = new URL(`/src/assets/video/${value.video}`, window.location.href)
+        this.videoUrl = new URL(`@/assets/video/${value.video}`, import.meta.url).href
       }
     },
     onVideoCanPlay() {
