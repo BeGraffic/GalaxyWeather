@@ -7,9 +7,9 @@
         <IconMagnify aria-hidden="true" class="h-5 w-5 text-white" />
       </div>
       <input
-        id="email"
-        name="email"
-        type="email"
+        id="search"
+        name="search"
+        type="text"
         placeholder="Escribe tu ciudad"
         className="block lg:w-[500px] w-full rounded-full border-0 py-3 pl-10 text-white ring-1 bg-white/10 ring-inset ring-gray-300 placeholder:text-white/50 focus:ring-2 focus:ring-inset focus:ring-orange-600 sm:text-sm sm:leading-6"
         v-model="search"

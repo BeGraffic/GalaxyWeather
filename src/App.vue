@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import ActualData from './components/ActualData.vue'
-import BackgroundsView from './components/BackgroundsView.vue'
-import ForecastData from './components/ForecastData.vue'
-import ListRecords from './components/ListRecords.vue'
-import SearchBar from './components/SearchBar.vue'
+import ActualData from '@/components/ActualData.vue'
+import BackgroundsView from '@/components/BackgroundsView.vue'
+import ForecastData from '@/components/ForecastData.vue'
+import ListRecords from '@/components/ListRecords.vue'
+import SearchBar from '@/components/SearchBar.vue'
 
 // @ts-ignore
 import { getWeatherData } from '@/controllers/WeatherService'
