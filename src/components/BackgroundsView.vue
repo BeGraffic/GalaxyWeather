@@ -9,7 +9,7 @@
     />
 
     <!-- Video -->
-    <video
+    <!-- <video
       v-show="!showImage"
       autoplay
       muted
@@ -19,7 +19,7 @@
       :src="videoUrl"
       @canplay="onVideoCanPlay"
       @error="onVideoError"
-    ></video>
+    ></video> -->
   </div>
 </template>
 
@@ -44,7 +44,7 @@ export default {
         img: 'despejado.jpg',
         video: 'despejado.mp4'
       },
-      videoUrl: '' as any,
+      /* videoUrl: '' as any, */
       imageUrl: '' as any,
       showImage: true,
       night: false,
@@ -178,9 +178,9 @@ export default {
         this.imageUrl = new URL(`/src/assets/images/weather/${value.img}`, import.meta.url)
       }
 
-      if (value.video) {
+      /* if (value.video) {
         this.videoUrl = new URL(`/src/assets/video/${value.video}`, import.meta.url)
-      }
+      } */
     },
     onVideoCanPlay() {
       this.showImage = false // Oculta la imagen cuando el video está listo
