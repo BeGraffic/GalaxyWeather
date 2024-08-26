@@ -142,7 +142,7 @@ export default {
         {
           id: 801,
           name: 'Pocas nubes',
-          img: 'pocon-ubes.jpg',
+          img: 'pocas-nubes.jpg',
           video: 'pocas-nubes.mp4'
         },
         {
